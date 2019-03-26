@@ -9,10 +9,22 @@
 /* Begin PBXBuildFile section */
 		1AD9D6A40232FC602702AF7B /* Pods_Soteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38E76B0E162E9F12A50C875 /* Pods_Soteria.framework */; };
 		5D47241C08973F165C73A894 /* Pods_SoteriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */; };
-		781E72FA224A46DD00D0CCAA /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 781E72F9224A46DD00D0CCAA /* Sources */; };
-		786F2261224A3E080098567C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2260224A3E080098567C /* AppDelegate.swift */; };
+		78073E3E224A62F6007864D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E38224A62F6007864D2 /* ViewController.swift */; };
+		78073E52224A6519007864D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E51224A6519007864D2 /* AppDelegate.swift */; };
+		78073E55224A6579007864D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78073E54224A6579007864D2 /* Assets.xcassets */; };
+		78073E58224A65F4007864D2 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E57224A65F4007864D2 /* NetworkType.swift */; };
+		78073E5A224AA4CA007864D2 /* HomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E59224AA4CA007864D2 /* HomeType.swift */; };
+		78073E6D224AA675007864D2 /* ContactSensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E65224AA675007864D2 /* ContactSensorType.swift */; };
+		78073E6E224AA675007864D2 /* LightType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E66224AA675007864D2 /* LightType.swift */; };
+		78073E6F224AA675007864D2 /* PlugType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E67224AA675007864D2 /* PlugType.swift */; };
+		78073E70224AA675007864D2 /* HubType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E68224AA675007864D2 /* HubType.swift */; };
+		78073E71224AA675007864D2 /* MotionSensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E69224AA675007864D2 /* MotionSensorType.swift */; };
+		78073E72224AA675007864D2 /* SirenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E6A224AA675007864D2 /* SirenType.swift */; };
+		78073E73224AA675007864D2 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E6B224AA675007864D2 /* DeviceType.swift */; };
+		78073E74224AA675007864D2 /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E6C224AA675007864D2 /* CameraType.swift */; };
+		78073E76224AA99E007864D2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E75224AA99E007864D2 /* Network.swift */; };
+		78073E7B224C89A9007864D2 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78073E7A224C89A9007864D2 /* Types.swift */; };
 		786F2266224A3E080098567C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F2264224A3E080098567C /* Main.storyboard */; };
-		786F2268224A3E0A0098567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786F2267224A3E0A0098567C /* Assets.xcassets */; };
 		786F226B224A3E0A0098567C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F2269224A3E0A0098567C /* LaunchScreen.storyboard */; };
 		786F2276224A3E0A0098567C /* SoteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2275224A3E0A0098567C /* SoteriaTests.swift */; };
 		786F2281224A3E0A0098567C /* SoteriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2280224A3E0A0098567C /* SoteriaUITests.swift */; };
@@ -40,11 +52,23 @@
 		34980A67D8355BD1046AD79F /* Pods-SoteriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaTests.release.xcconfig"; path = "Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests.release.xcconfig"; sourceTree = "<group>"; };
 		5335D513DDD2022B7616A777 /* Pods-SoteriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaUITests.release.xcconfig"; path = "Target Support Files/Pods-SoteriaUITests/Pods-SoteriaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5E3E1DC58335FA6056A4FB33 /* Pods-Soteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soteria.debug.xcconfig"; path = "Target Support Files/Pods-Soteria/Pods-Soteria.debug.xcconfig"; sourceTree = "<group>"; };
-		781E72F9224A46DD00D0CCAA /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		78073E38224A62F6007864D2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78073E51224A6519007864D2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78073E54224A6579007864D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78073E57224A65F4007864D2 /* NetworkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkType.swift; sourceTree = "<group>"; };
+		78073E59224AA4CA007864D2 /* HomeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
+		78073E65224AA675007864D2 /* ContactSensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSensorType.swift; sourceTree = "<group>"; };
+		78073E66224AA675007864D2 /* LightType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightType.swift; sourceTree = "<group>"; };
+		78073E67224AA675007864D2 /* PlugType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlugType.swift; sourceTree = "<group>"; };
+		78073E68224AA675007864D2 /* HubType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubType.swift; sourceTree = "<group>"; };
+		78073E69224AA675007864D2 /* MotionSensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionSensorType.swift; sourceTree = "<group>"; };
+		78073E6A224AA675007864D2 /* SirenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SirenType.swift; sourceTree = "<group>"; };
+		78073E6B224AA675007864D2 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		78073E6C224AA675007864D2 /* CameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraType.swift; sourceTree = "<group>"; };
+		78073E75224AA99E007864D2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		78073E7A224C89A9007864D2 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		786F225D224A3E080098567C /* Soteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soteria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		786F2260224A3E080098567C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		786F2265224A3E080098567C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		786F2267224A3E0A0098567C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		786F226A224A3E0A0098567C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		786F226C224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786F2271224A3E0A0098567C /* SoteriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoteriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +126,92 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		78073E2F224A62F6007864D2 /* Soteria */ = {
+			isa = PBXGroup;
+			children = (
+				78073E53224A6579007864D2 /* Assets */,
+				78073E35224A62F6007864D2 /* Sources */,
+			);
+			name = Soteria;
+			sourceTree = "<group>";
+		};
+		78073E35224A62F6007864D2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				78073E56224A65E5007864D2 /* Network */,
+				78073E50224A6519007864D2 /* Main */,
+				78073E36224A62F6007864D2 /* Model */,
+				78073E37224A62F6007864D2 /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		78073E36224A62F6007864D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78073E41224A6313007864D2 /* Base */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78073E37224A62F6007864D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78073E38224A62F6007864D2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		78073E41224A6313007864D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				78073E64224AA675007864D2 /* Devices */,
+				78073E59224AA4CA007864D2 /* HomeType.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		78073E50224A6519007864D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				78073E51224A6519007864D2 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		78073E53224A6579007864D2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				78073E54224A6579007864D2 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		78073E56224A65E5007864D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				78073E57224A65F4007864D2 /* NetworkType.swift */,
+				78073E75224AA99E007864D2 /* Network.swift */,
+				78073E7A224C89A9007864D2 /* Types.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		78073E64224AA675007864D2 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				78073E65224AA675007864D2 /* ContactSensorType.swift */,
+				78073E66224AA675007864D2 /* LightType.swift */,
+				78073E67224AA675007864D2 /* PlugType.swift */,
+				78073E68224AA675007864D2 /* HubType.swift */,
+				78073E69224AA675007864D2 /* MotionSensorType.swift */,
+				78073E6A224AA675007864D2 /* SirenType.swift */,
+				78073E6B224AA675007864D2 /* DeviceType.swift */,
+				78073E6C224AA675007864D2 /* CameraType.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
 		786F2254224A3E070098567C = {
 			isa = PBXGroup;
 			children = (
@@ -127,10 +237,8 @@
 		786F225F224A3E080098567C /* Soteria */ = {
 			isa = PBXGroup;
 			children = (
-				781E72F9224A46DD00D0CCAA /* Sources */,
-				786F2260224A3E080098567C /* AppDelegate.swift */,
+				78073E2F224A62F6007864D2 /* Soteria */,
 				786F2264224A3E080098567C /* Main.storyboard */,
-				786F2267224A3E0A0098567C /* Assets.xcassets */,
 				786F2269224A3E0A0098567C /* LaunchScreen.storyboard */,
 				786F226C224A3E0A0098567C /* Info.plist */,
 			);
@@ -275,9 +383,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				786F226B224A3E0A0098567C /* LaunchScreen.storyboard in Resources */,
-				786F2268224A3E0A0098567C /* Assets.xcassets in Resources */,
+				78073E55224A6579007864D2 /* Assets.xcassets in Resources */,
 				786F2266224A3E080098567C /* Main.storyboard in Resources */,
-				781E72FA224A46DD00D0CCAA /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +538,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786F2261224A3E080098567C /* AppDelegate.swift in Sources */,
+				78073E6D224AA675007864D2 /* ContactSensorType.swift in Sources */,
+				78073E70224AA675007864D2 /* HubType.swift in Sources */,
+				78073E74224AA675007864D2 /* CameraType.swift in Sources */,
+				78073E7B224C89A9007864D2 /* Types.swift in Sources */,
+				78073E5A224AA4CA007864D2 /* HomeType.swift in Sources */,
+				78073E72224AA675007864D2 /* SirenType.swift in Sources */,
+				78073E76224AA99E007864D2 /* Network.swift in Sources */,
+				78073E6E224AA675007864D2 /* LightType.swift in Sources */,
+				78073E52224A6519007864D2 /* AppDelegate.swift in Sources */,
+				78073E71224AA675007864D2 /* MotionSensorType.swift in Sources */,
+				78073E58224A65F4007864D2 /* NetworkType.swift in Sources */,
+				78073E73224AA675007864D2 /* DeviceType.swift in Sources */,
+				78073E6F224AA675007864D2 /* PlugType.swift in Sources */,
+				78073E3E224A62F6007864D2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +728,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LGM5UXLL43;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Soteria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -627,7 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LGM5UXLL43;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Soteria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

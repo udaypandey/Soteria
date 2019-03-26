@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD9D6A40232FC602702AF7B /* Pods_Soteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38E76B0E162E9F12A50C875 /* Pods_Soteria.framework */; };
+		5D47241C08973F165C73A894 /* Pods_SoteriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */; };
+		781E72FA224A46DD00D0CCAA /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 781E72F9224A46DD00D0CCAA /* Sources */; };
+		786F2261224A3E080098567C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2260224A3E080098567C /* AppDelegate.swift */; };
+		786F2266224A3E080098567C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F2264224A3E080098567C /* Main.storyboard */; };
+		786F2268224A3E0A0098567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786F2267224A3E0A0098567C /* Assets.xcassets */; };
+		786F226B224A3E0A0098567C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F2269224A3E0A0098567C /* LaunchScreen.storyboard */; };
+		786F2276224A3E0A0098567C /* SoteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2275224A3E0A0098567C /* SoteriaTests.swift */; };
+		786F2281224A3E0A0098567C /* SoteriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2280224A3E0A0098567C /* SoteriaUITests.swift */; };
+		E7D4B5BB4E09EC82C9428B56 /* Pods_SoteriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		786F2272224A3E0A0098567C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786F2255224A3E070098567C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786F225C224A3E080098567C;
+			remoteInfo = Soteria;
+		};
+		786F227D224A3E0A0098567C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786F2255224A3E070098567C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786F225C224A3E080098567C;
+			remoteInfo = Soteria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34980A67D8355BD1046AD79F /* Pods-SoteriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaTests.release.xcconfig"; path = "Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5335D513DDD2022B7616A777 /* Pods-SoteriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaUITests.release.xcconfig"; path = "Target Support Files/Pods-SoteriaUITests/Pods-SoteriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E3E1DC58335FA6056A4FB33 /* Pods-Soteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soteria.debug.xcconfig"; path = "Target Support Files/Pods-Soteria/Pods-Soteria.debug.xcconfig"; sourceTree = "<group>"; };
+		781E72F9224A46DD00D0CCAA /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		786F225D224A3E080098567C /* Soteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soteria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F2260224A3E080098567C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		786F2265224A3E080098567C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		786F2267224A3E0A0098567C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786F226A224A3E0A0098567C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		786F226C224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F2271224A3E0A0098567C /* SoteriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoteriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F2275224A3E0A0098567C /* SoteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoteriaTests.swift; sourceTree = "<group>"; };
+		786F2277224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F227C224A3E0A0098567C /* SoteriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoteriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F2280224A3E0A0098567C /* SoteriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoteriaUITests.swift; sourceTree = "<group>"; };
+		786F2282224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8877F846196D0974ABC3E038 /* Pods-SoteriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaTests.debug.xcconfig"; path = "Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38E76B0E162E9F12A50C875 /* Pods_Soteria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soteria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B725E785D0906AE209C7CE44 /* Pods-SoteriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaUITests.debug.xcconfig"; path = "Target Support Files/Pods-SoteriaUITests/Pods-SoteriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3A46A65824622D2557161F /* Pods-Soteria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soteria.release.xcconfig"; path = "Target Support Files/Pods-Soteria/Pods-Soteria.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786F225A224A3E080098567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD9D6A40232FC602702AF7B /* Pods_Soteria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F226E224A3E0A0098567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D47241C08973F165C73A894 /* Pods_SoteriaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F2279224A3E0A0098567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D4B5BB4E09EC82C9428B56 /* Pods_SoteriaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D47EE7CC5C8392B188A85A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E3E1DC58335FA6056A4FB33 /* Pods-Soteria.debug.xcconfig */,
+				FC3A46A65824622D2557161F /* Pods-Soteria.release.xcconfig */,
+				8877F846196D0974ABC3E038 /* Pods-SoteriaTests.debug.xcconfig */,
+				34980A67D8355BD1046AD79F /* Pods-SoteriaTests.release.xcconfig */,
+				B725E785D0906AE209C7CE44 /* Pods-SoteriaUITests.debug.xcconfig */,
+				5335D513DDD2022B7616A777 /* Pods-SoteriaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		786F2254224A3E070098567C = {
+			isa = PBXGroup;
+			children = (
+				786F225F224A3E080098567C /* Soteria */,
+				786F2274224A3E0A0098567C /* SoteriaTests */,
+				786F227F224A3E0A0098567C /* SoteriaUITests */,
+				786F225E224A3E080098567C /* Products */,
+				0D47EE7CC5C8392B188A85A6 /* Pods */,
+				EB377D953DB99CA66E28C515 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		786F225E224A3E080098567C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786F225D224A3E080098567C /* Soteria.app */,
+				786F2271224A3E0A0098567C /* SoteriaTests.xctest */,
+				786F227C224A3E0A0098567C /* SoteriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786F225F224A3E080098567C /* Soteria */ = {
+			isa = PBXGroup;
+			children = (
+				781E72F9224A46DD00D0CCAA /* Sources */,
+				786F2260224A3E080098567C /* AppDelegate.swift */,
+				786F2264224A3E080098567C /* Main.storyboard */,
+				786F2267224A3E0A0098567C /* Assets.xcassets */,
+				786F2269224A3E0A0098567C /* LaunchScreen.storyboard */,
+				786F226C224A3E0A0098567C /* Info.plist */,
+			);
+			path = Soteria;
+			sourceTree = "<group>";
+		};
+		786F2274224A3E0A0098567C /* SoteriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				786F2275224A3E0A0098567C /* SoteriaTests.swift */,
+				786F2277224A3E0A0098567C /* Info.plist */,
+			);
+			path = SoteriaTests;
+			sourceTree = "<group>";
+		};
+		786F227F224A3E0A0098567C /* SoteriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				786F2280224A3E0A0098567C /* SoteriaUITests.swift */,
+				786F2282224A3E0A0098567C /* Info.plist */,
+			);
+			path = SoteriaUITests;
+			sourceTree = "<group>";
+		};
+		EB377D953DB99CA66E28C515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38E76B0E162E9F12A50C875 /* Pods_Soteria.framework */,
+				7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */,
+				93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786F225C224A3E080098567C /* Soteria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F2285224A3E0A0098567C /* Build configuration list for PBXNativeTarget "Soteria" */;
+			buildPhases = (
+				D06470C77E73F6B2885E3CB1 /* [CP] Check Pods Manifest.lock */,
+				786F2259224A3E080098567C /* Sources */,
+				786F225A224A3E080098567C /* Frameworks */,
+				786F225B224A3E080098567C /* Resources */,
+				7FF19A71421B1C10D844B172 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soteria;
+			productName = Soteria;
+			productReference = 786F225D224A3E080098567C /* Soteria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		786F2270224A3E0A0098567C /* SoteriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F2288224A3E0A0098567C /* Build configuration list for PBXNativeTarget "SoteriaTests" */;
+			buildPhases = (
+				26F57E970A2C70FF6F747D40 /* [CP] Check Pods Manifest.lock */,
+				786F226D224A3E0A0098567C /* Sources */,
+				786F226E224A3E0A0098567C /* Frameworks */,
+				786F226F224A3E0A0098567C /* Resources */,
+				C7616DD13C55213A3DB090AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786F2273224A3E0A0098567C /* PBXTargetDependency */,
+			);
+			name = SoteriaTests;
+			productName = SoteriaTests;
+			productReference = 786F2271224A3E0A0098567C /* SoteriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		786F227B224A3E0A0098567C /* SoteriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F228B224A3E0A0098567C /* Build configuration list for PBXNativeTarget "SoteriaUITests" */;
+			buildPhases = (
+				6402C8D73A66B9501FB9860E /* [CP] Check Pods Manifest.lock */,
+				786F2278224A3E0A0098567C /* Sources */,
+				786F2279224A3E0A0098567C /* Frameworks */,
+				786F227A224A3E0A0098567C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786F227E224A3E0A0098567C /* PBXTargetDependency */,
+			);
+			name = SoteriaUITests;
+			productName = SoteriaUITests;
+			productReference = 786F227C224A3E0A0098567C /* SoteriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786F2255224A3E070098567C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Uday Pandey";
+				TargetAttributes = {
+					786F225C224A3E080098567C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					786F2270224A3E0A0098567C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 786F225C224A3E080098567C;
+					};
+					786F227B224A3E0A0098567C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 786F225C224A3E080098567C;
+					};
+				};
+			};
+			buildConfigurationList = 786F2258224A3E070098567C /* Build configuration list for PBXProject "Soteria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 786F2254224A3E070098567C;
+			productRefGroup = 786F225E224A3E080098567C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786F225C224A3E080098567C /* Soteria */,
+				786F2270224A3E0A0098567C /* SoteriaTests */,
+				786F227B224A3E0A0098567C /* SoteriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		786F225B224A3E080098567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F226B224A3E0A0098567C /* LaunchScreen.storyboard in Resources */,
+				786F2268224A3E0A0098567C /* Assets.xcassets in Resources */,
+				786F2266224A3E080098567C /* Main.storyboard in Resources */,
+				781E72FA224A46DD00D0CCAA /* Sources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F226F224A3E0A0098567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F227A224A3E0A0098567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F57E970A2C70FF6F747D40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoteriaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6402C8D73A66B9501FB9860E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoteriaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF19A71421B1C10D844B172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soteria/Pods-Soteria-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soteria/Pods-Soteria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7616DD13C55213A3DB090AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06470C77E73F6B2885E3CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soteria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786F2259224A3E080098567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F2261224A3E080098567C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F226D224A3E0A0098567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F2276224A3E0A0098567C /* SoteriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F2278224A3E0A0098567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F2281224A3E0A0098567C /* SoteriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		786F2273224A3E0A0098567C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786F225C224A3E080098567C /* Soteria */;
+			targetProxy = 786F2272224A3E0A0098567C /* PBXContainerItemProxy */;
+		};
+		786F227E224A3E0A0098567C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786F225C224A3E080098567C /* Soteria */;
+			targetProxy = 786F227D224A3E0A0098567C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		786F2264224A3E080098567C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786F2265224A3E080098567C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		786F2269224A3E0A0098567C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786F226A224A3E0A0098567C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		786F2283224A3E0A0098567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		786F2284224A3E0A0098567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786F2286224A3E0A0098567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3E1DC58335FA6056A4FB33 /* Pods-Soteria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Soteria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.Soteria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		786F2287224A3E0A0098567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3A46A65824622D2557161F /* Pods-Soteria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Soteria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.Soteria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		786F2289224A3E0A0098567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877F846196D0974ABC3E038 /* Pods-SoteriaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoteriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.SoteriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soteria.app/Soteria";
+			};
+			name = Debug;
+		};
+		786F228A224A3E0A0098567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34980A67D8355BD1046AD79F /* Pods-SoteriaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoteriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.SoteriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soteria.app/Soteria";
+			};
+			name = Release;
+		};
+		786F228C224A3E0A0098567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B725E785D0906AE209C7CE44 /* Pods-SoteriaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoteriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.SoteriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soteria;
+			};
+			name = Debug;
+		};
+		786F228D224A3E0A0098567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335D513DDD2022B7616A777 /* Pods-SoteriaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoteriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirstysea.SoteriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soteria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786F2258224A3E070098567C /* Build configuration list for PBXProject "Soteria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F2283224A3E0A0098567C /* Debug */,
+				786F2284224A3E0A0098567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F2285224A3E0A0098567C /* Build configuration list for PBXNativeTarget "Soteria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F2286224A3E0A0098567C /* Debug */,
+				786F2287224A3E0A0098567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F2288224A3E0A0098567C /* Build configuration list for PBXNativeTarget "SoteriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F2289224A3E0A0098567C /* Debug */,
+				786F228A224A3E0A0098567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F228B224A3E0A0098567C /* Build configuration list for PBXNativeTarget "SoteriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F228C224A3E0A0098567C /* Debug */,
+				786F228D224A3E0A0098567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786F2255224A3E070098567C /* Project object */;
+}

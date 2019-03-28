@@ -14,6 +14,7 @@ enum API {
     case login(userName: String, password: String)
     case logout
     
+    case users(user: ResourceIdentifier?)
     case homes(home: ResourceIdentifier?)
     case devices(home: ResourceIdentifier)
     case events(home: ResourceIdentifier, device: ResourceIdentifier?)

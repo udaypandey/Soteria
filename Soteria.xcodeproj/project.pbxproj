@@ -28,6 +28,7 @@
 		786F226B224A3E0A0098567C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F2269224A3E0A0098567C /* LaunchScreen.storyboard */; };
 		786F2276224A3E0A0098567C /* SoteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2275224A3E0A0098567C /* SoteriaTests.swift */; };
 		786F2281224A3E0A0098567C /* SoteriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2280224A3E0A0098567C /* SoteriaUITests.swift */; };
+		78F0DAE9224CEE06000F3D78 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0DAE8224CEE06000F3D78 /* UserType.swift */; };
 		E7D4B5BB4E09EC82C9428B56 /* Pods_SoteriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		786F227C224A3E0A0098567C /* SoteriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoteriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		786F2280224A3E0A0098567C /* SoteriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoteriaUITests.swift; sourceTree = "<group>"; };
 		786F2282224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F0DAE8224CEE06000F3D78 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 		7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8877F846196D0974ABC3E038 /* Pods-SoteriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaTests.debug.xcconfig"; path = "Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 			children = (
 				78073E64224AA675007864D2 /* Devices */,
 				78073E59224AA4CA007864D2 /* HomeType.swift */,
+				78F0DAE8224CEE06000F3D78 /* UserType.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				78073E52224A6519007864D2 /* AppDelegate.swift in Sources */,
 				78073E71224AA675007864D2 /* MotionSensorType.swift in Sources */,
 				78073E58224A65F4007864D2 /* NetworkType.swift in Sources */,
+				78F0DAE9224CEE06000F3D78 /* UserType.swift in Sources */,
 				78073E73224AA675007864D2 /* DeviceType.swift in Sources */,
 				78073E6F224AA675007864D2 /* PlugType.swift in Sources */,
 				78073E3E224A62F6007864D2 /* ViewController.swift in Sources */,

@@ -10,11 +10,14 @@ import Foundation
 import Moya
 
 extension API: TargetType {
-    var base: String { return "https://pastebin.com/raw/A2NBE0RH" }
+//    var base: String { return "https://pastebin.com/raw/A2NBE0RH" }
+    var base: String { return "https://pastebin.com/raw/hKaA7tyW" }
+
     var baseURL: URL { return URL(string: base)! }
     
     private struct Path {
         static let homes = ""
+        static let users = ""
         static let events = "events"
         static let devices = "devices"
         static let login = "login"
@@ -27,6 +30,8 @@ extension API: TargetType {
         switch self {
         case .homes(let home):
             endPath = [Path.homes, home]
+        case .users(let user):
+            endPath = [Path.users, user]
         case .devices(let device):
             endPath = [Path.devices, device]
         case .events(let home, let device):
@@ -36,8 +41,8 @@ extension API: TargetType {
         case .logout:
             endPath = [Path.logout]
         }
+        
         return endPath.compactMap { $0 }.joined(separator: "/")
-
     }
     
     var method: Moya.Method {

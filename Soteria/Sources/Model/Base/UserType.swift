@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol UserType {
+protocol UserType: Codable {
     var id: String { get }
     var name: String { get }
     

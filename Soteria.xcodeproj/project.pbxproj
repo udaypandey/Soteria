@@ -29,6 +29,8 @@
 		786F2276224A3E0A0098567C /* SoteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2275224A3E0A0098567C /* SoteriaTests.swift */; };
 		786F2281224A3E0A0098567C /* SoteriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F2280224A3E0A0098567C /* SoteriaUITests.swift */; };
 		78F0DAE9224CEE06000F3D78 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0DAE8224CEE06000F3D78 /* UserType.swift */; };
+		78F0DAEC224CFEEF000F3D78 /* SoteriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0DAEB224CFEEF000F3D78 /* SoteriaModel.swift */; };
+		78F0DAEE224CFF6F000F3D78 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F0DAED224CFF6F000F3D78 /* EventType.swift */; };
 		E7D4B5BB4E09EC82C9428B56 /* Pods_SoteriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		786F2280224A3E0A0098567C /* SoteriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoteriaUITests.swift; sourceTree = "<group>"; };
 		786F2282224A3E0A0098567C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F0DAE8224CEE06000F3D78 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		78F0DAEB224CFEEF000F3D78 /* SoteriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoteriaModel.swift; sourceTree = "<group>"; };
+		78F0DAED224CFF6F000F3D78 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 		7DECF02D1862DFFB1F24C216 /* Pods_SoteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8877F846196D0974ABC3E038 /* Pods-SoteriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoteriaTests.debug.xcconfig"; path = "Target Support Files/Pods-SoteriaTests/Pods-SoteriaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93953F05CA07D392DB7841FE /* Pods_SoteriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoteriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +144,7 @@
 		78073E35224A62F6007864D2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				78F0DAEA224CFEDA000F3D78 /* CurrentModel */,
 				78073E56224A65E5007864D2 /* Network */,
 				78073E50224A6519007864D2 /* Main */,
 				78073E36224A62F6007864D2 /* Model */,
@@ -170,6 +175,7 @@
 				78073E64224AA675007864D2 /* Devices */,
 				78073E59224AA4CA007864D2 /* HomeType.swift */,
 				78F0DAE8224CEE06000F3D78 /* UserType.swift */,
+				78F0DAED224CFF6F000F3D78 /* EventType.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -264,6 +270,14 @@
 				786F2282224A3E0A0098567C /* Info.plist */,
 			);
 			path = SoteriaUITests;
+			sourceTree = "<group>";
+		};
+		78F0DAEA224CFEDA000F3D78 /* CurrentModel */ = {
+			isa = PBXGroup;
+			children = (
+				78F0DAEB224CFEEF000F3D78 /* SoteriaModel.swift */,
+			);
+			path = CurrentModel;
 			sourceTree = "<group>";
 		};
 		EB377D953DB99CA66E28C515 /* Frameworks */ = {
@@ -546,11 +560,13 @@
 				78073E74224AA675007864D2 /* CameraType.swift in Sources */,
 				78073E7B224C89A9007864D2 /* Types.swift in Sources */,
 				78073E5A224AA4CA007864D2 /* HomeType.swift in Sources */,
+				78F0DAEC224CFEEF000F3D78 /* SoteriaModel.swift in Sources */,
 				78073E72224AA675007864D2 /* SirenType.swift in Sources */,
 				78073E76224AA99E007864D2 /* Network.swift in Sources */,
 				78073E6E224AA675007864D2 /* LightType.swift in Sources */,
 				78073E52224A6519007864D2 /* AppDelegate.swift in Sources */,
 				78073E71224AA675007864D2 /* MotionSensorType.swift in Sources */,
+				78F0DAEE224CFF6F000F3D78 /* EventType.swift in Sources */,
 				78073E58224A65F4007864D2 /* NetworkType.swift in Sources */,
 				78F0DAE9224CEE06000F3D78 /* UserType.swift in Sources */,
 				78073E73224AA675007864D2 /* DeviceType.swift in Sources */,

@@ -17,10 +17,18 @@ protocol OnOffType {
 //    func setState(state: DeviceState, completion: NetworkCompletion)
 }
 
-protocol DeviceType: OnOffType {
+protocol DeviceType: OnOffType, Codable {
     var deviceId: String { get }
     var name: String { get }
     
 //    func setName(name: String, completion: NetworkCompletion)
 }
 
+//class Device: DeviceType, Codable {
+//    var deviceId: String
+//    
+//    var name: String
+//    
+//    var state: DeviceState
+//    
+//}

@@ -13,9 +13,23 @@ protocol HomeType {
     var name: String { get }
 
 //    func setName(name: String, completion: NetworkCompletion)
+    
+    func devices() -> [DeviceType]?
+    func events() -> [EventType]?
 }
 
 struct Home: HomeType, Codable {
+    func devices() -> [DeviceType]? {
+        return nil
+    }
+    
+    func events() -> [EventType]? {
+        return nil
+    }
+    
+//    var devices: [DeviceType]?
+//    var events: [EventType]?
+    
     var id: String
     var name: String
     

@@ -14,7 +14,9 @@ extension API: TargetType {
 //    var base: String { return "https://pastebin.com/raw/A2NBE0RH" }
     
     // Sample user data
-    var base: String { return "https://pastebin.com/raw/hKaA7tyW" }
+//    var base: String { return "https://pastebin.com/raw/hKaA7tyW" }
+
+    var base: String { return "http://localhost:3000" }
 
     var baseURL: URL { return URL(string: base)! }
     

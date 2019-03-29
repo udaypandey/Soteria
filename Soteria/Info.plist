@@ -41,5 +41,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
+	<!-- App Transport Security changes to connect to localhost for initial testing -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+    		<key>NSAllowsArbitraryLoads</key>
+    		<true/>
+    		<key>NSAllowsLocalNetworking</key>
+    		<true/>
+	</dict>
 </dict>
 </plist>
